@@ -1,0 +1,61 @@
+body{
+    background-color: cadetblue;
+}
+header{
+    background-color: darkcyan;
+    color: white;
+    text-align: center;
+    padding: 5px;
+    font-size: 65px;
+    font-family: 'Lucida Handwriting', cursive;}
+    nav{
+        background-color: rgb(78, 107, 107);
+        color: white;
+        text-align: center;
+        padding: 5px;
+        font-size: 20px;
+        font-family: 'Lucida Handwriting', cursive;
+        margin-top: 10px;
+    }
+    #photo1{
+       padding: 5px;
+       margin-top: 70px;
+         margin-left: 30px;
+         padding: 30px;
+         background-color: white;
+         width: 200px;
+         
+    }
+    #p1{
+        font-size: 20px;
+        font-family: 'Lucida Handwriting', cursive;
+        color: white;
+        padding: 30px;
+        background-color: darkcyan;
+        inline-block;
+        width: 800px;
+        margin-left: 350px;
+        margin-top: -260px;
+        text-align: center;
+    }
+    #photo2
+    {
+        margin-left: 1290px;
+        width: 225px;
+        margin-top: -200px;
+        margin-right: ;
+    }
+    footer{
+        background-color: darkcyan;
+        color: white;
+
+        padding: 5px;
+        font-size: 20px;
+        font-family: 'Lucida Handwriting', cursive;
+        margin-top: 50px;
+        width: 400px;
+        margin-left: 620px;
+        margin-top: 500px;
+    }
+          
+   
