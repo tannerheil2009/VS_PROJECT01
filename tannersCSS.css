@@ -11,8 +11,9 @@ header{
     background-color: darkcyan;
     color: white;
     text-align: center;
-    padding: 12px 0; /* reasonable top/bottom space */
-    font-size: clamp(28px, 5vw, 48px); /* scales between 28px and 48px */
+    padding: 5px;
+    font-size: clamp(20px, 5vw, 40px); /* scales between 28px and 48px */
+    border: 3px solid white;
 }
 
 /* Flexbox centering for main content */
@@ -35,8 +36,8 @@ header{
 }
 
 .side-image{
-    width: 220px; /* fixed visual size for both images */
-    max-width: 25%;
+    width: 350px; /* fixed visual size for both images */
+    max-width: 45%;
     height: auto;
     object-fit: cover;
     display: block;
@@ -57,8 +58,8 @@ nav{
     color: white;
     text-align: center;
     padding: 5px;
-    font-size: 20px;
-    margin-top: 10px;
+    font-size: 30px;
+
 }
 
 
@@ -70,7 +71,7 @@ nav{
     display: block;
     max-width: 600px;
     width: 100%;
-    margin: 0 auto;
+    margin-top: -30px;
     text-align: center;
 }
 
@@ -99,6 +100,21 @@ footer{
     /* center the footer and provide space above */
     max-width: 1000px;
     margin: 50px auto;
+    text-align: center;
+}
+h3{
+    margin: 0;
+    font-size: 24px;
+    color: white;
+    text-align: center;
+}
+main{
+    border: 3px solid white;
+}
+h4{
+    margin: 0;
+    font-size: 20px;
+    color: white;
     text-align: center;
 }
 
